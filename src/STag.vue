@@ -2,7 +2,7 @@
 <template>
   <a
     :href="link"
-    class="px-2 py-1 m-1 text-xs font-semibold tracking-wider uppercase rounded-xl"
+    class="px-2 py-1 m-1 text-xs font-semibold tracking-wider uppercase bg-opacity-100 rounded-xl hover:bg-opacity-75"
     :class="tagColor + ' ' + tagTextColor + ' ' + tagCursor"
   >
     <slot></slot>
@@ -23,8 +23,8 @@ export default class STag extends Vue {
   private tagCursor = "";
 
   mounted() {
-    this.tagColor = this.color ?? "bg-azure-500";
-    this.tagTextColor = this.textColor ?? "text-white ";
+    this.tagColor = this.color ?? "bg-azure-200";
+    this.tagTextColor = this.textColor ?? "text-azure-700 ";
     this.tagCursor = this.link == undefined ? "" : "cursor-pointer";
   }
 }

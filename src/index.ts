@@ -3,6 +3,7 @@ import SAccentOutlineButton from "./SAccentOutlineButton.vue";
 import SBaseButton from "./SBaseButton.vue";
 import SBaseOutlineButton from "./SBaseOutlineButton.vue";
 import SCard from "./SCard.vue";
+import SAuthorCard from "./SAuthorCard.vue";
 import SCodeBlock from "./SCodeBlock.vue";
 import SColorIconButton from "./SColorIconButton.vue";
 import SHeadline from "./SHeadline.vue";
@@ -32,6 +33,7 @@ export default {
     SBaseButton,
     SBaseOutlineButton,
     SCard,
+    SAuthorCard,
     SCodeBlock,
     SColorIconButton,
     SHeadline,

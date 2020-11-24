@@ -1,6 +1,6 @@
 
 <template>
-  <p class="px-5 my-3 text-lg leading-7 text-gray-900 md:text-base">
+  <p class="px-5 my-3 text-lg leading-7 md:text-base">
     <slot></slot>
   </p>
 </template>
