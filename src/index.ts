@@ -25,6 +25,7 @@ import STab from "./STab.vue";
 import STabs from "./STabs.vue";
 import STag from "./STag.vue";
 import STimeline from "./STimeline.vue";
+import TimelinePoint from "./TimelinePoint";
 import STypoQuote from "./STypoQuote.vue";
 
 export default {
@@ -55,5 +56,6 @@ export default {
     STabs,
     STag,
     STimeline,
-    STypoQuote
+    STypoQuote,
+    TimelinePoint
 };

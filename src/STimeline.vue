@@ -56,19 +56,12 @@
 
 <script lang='ts'>
 import { Component, Prop, Vue } from "vue-property-decorator";
+import TimelinePoint from "./TimelinePoint";
 
 /* It is recommended to place these classes somewhere else outside this component to enable access from within your own components. */
 export const enum TimelineArrangement {
   LeftOnly = "left",
   RightOnly = "right",
-}
-
-export class TimelinePoint {
-  constructor(
-    private title: string,
-    private date: string,
-    private description: string
-  ) {}
 }
 
 @Component
