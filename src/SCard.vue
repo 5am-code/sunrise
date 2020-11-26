@@ -35,7 +35,7 @@
           <div>
             <slot name="date">{{ date }}</slot>
           </div>
-          <div class="text-gray-500">
+          <div class="text-fog-500">
             <slot name="read">{{ read }}</slot>
           </div>
         </div>

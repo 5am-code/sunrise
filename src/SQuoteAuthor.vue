@@ -20,7 +20,7 @@
           <div class="text-lg lg:mt-2 font-display text-amber-800">
             {{ author }}
           </div>
-          <div class="mb-2 text-base tracking-wide text-gray-600 lg:text-xs">
+          <div class="mb-2 text-base tracking-wide text-fog-600 lg:text-xs">
             {{ authorSubtitle }}
           </div>
         </div>

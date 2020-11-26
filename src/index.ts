@@ -11,6 +11,9 @@ import SHeadlineAlternative from "./SHeadlineAlternative.vue";
 import SIconButton from "./SIconButton.vue";
 import SInlineQuote from "./SInlineQuote.vue";
 import SLeadingParagraph from "./SLeadingParagraph.vue";
+import SLink from "./SLink.vue";
+import SGradientLink from "./SGradientLink.vue";
+import SExternalLink from "./SExternalLink.vue";
 import SParagraph from "./SParagraph.vue";
 import SParagraphHeadline from "./SParagraphHeadline.vue";
 import SPrimaryButton from "./SPrimaryButton.vue";
@@ -18,7 +21,6 @@ import SPrimaryOutlineButton from "./SPrimaryOutlineButton.vue";
 import SQuote from "./SQuote.vue";
 import SQuoteAuthor from "./SQuoteAuthor.vue";
 import SQuoteCard from "./SQuoteCard.vue";
-import SSimpleList from "./SSimpleList.vue";
 import SSimpleQuote from "./SSimpleQuote.vue";
 import SSiteTitle from "./SSiteTitle.vue";
 import STab from "./STab.vue";
@@ -42,6 +44,9 @@ export default {
     SIconButton,
     SInlineQuote,
     SLeadingParagraph,
+    SLink,
+    SGradientLink,
+    SExternalLink,
     SParagraph,
     SParagraphHeadline,
     SPrimaryOutlineButton,
@@ -49,7 +54,6 @@ export default {
     SQuote,
     SQuoteAuthor,
     SQuoteCard,
-    SSimpleList,
     SSimpleQuote,
     SSiteTitle,
     STab,

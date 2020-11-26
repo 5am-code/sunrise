@@ -12,7 +12,7 @@
     <div class="px-8 py-4">
       <div class="text-center">
         <div class="text-lg font-display">{{ author }}</div>
-        <div class="text-base tracking-wide text-gray-600 lg:text-xs">
+        <div class="text-base tracking-wide text-fog-600 lg:text-xs">
           {{ authorSubtitle }}
         </div>
       </div>

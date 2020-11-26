@@ -20,7 +20,7 @@
         <div class="text-xl font-semibold leading-8 xl:text-2xl font-display">
           <a href="#">{{ title }}</a>
         </div>
-        <s-paragraph class="text-sm text-left text-gray-700">
+        <s-paragraph class="text-sm text-left text-fog-700">
           {{ excerpt }}
         </s-paragraph>
         <div

@@ -4,7 +4,7 @@
     <div class="text-2xl font-oblique text-azure-500">
       <slot></slot>
     </div>
-    <div class="text-sm font-semibold text-right text-gray-700">
+    <div class="text-sm font-semibold text-right text-fog-700">
       {{ author }}
     </div>
   </div>

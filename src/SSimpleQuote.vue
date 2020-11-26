@@ -1,7 +1,7 @@
 
 <template>
   <div class="w-full mx-auto xl:w-1/3 sm:w-3/4">
-    <div class="leading-6 text-gray-800">
+    <div class="leading-6 text-fog-800">
       <slot></slot>
     </div>
     <div class="mt-2 text-sm font-semibold">

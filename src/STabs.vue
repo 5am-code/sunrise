@@ -6,8 +6,8 @@
         class="px-5 py-2 mx-1 text-sm font-semibold transition-colors duration-300 border cursor-pointer border-azure-100 hover:text-azure-600"
         :class="
           selectedIndex == index
-            ? 'bg-white text-gray-800 '
-            : 'bg-azure-50 text-gray-500 '
+            ? 'bg-white text-fog-800 '
+            : 'bg-azure-50 text-fog-500 '
         "
         :style="
           selectedIndex == index

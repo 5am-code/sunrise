@@ -23,7 +23,7 @@
       <slot></slot>
     </div>
     <div class="w-1/4 my-4 border-b-4 border-amber-500"></div>
-    <div class="text-sm font-semibold text-right text-gray-700">
+    <div class="text-sm font-semibold text-right text-fog-700">
       {{ author }}
     </div>
   </div>

@@ -22,7 +22,7 @@
           {{ point.title }}
         </div>
         <div
-          class="text-sm leading-7 text-gray-600 transition-all duration-150 group-hover:text-gray-900"
+          class="text-sm leading-7 text-fog-600 transition-all duration-150 group-hover:text-fog-900"
         >
           {{ point.description }}
         </div>
