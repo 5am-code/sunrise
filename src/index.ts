@@ -26,6 +26,8 @@ import SSiteTitle from "./SSiteTitle.vue";
 import STab from "./STab.vue";
 import STabs from "./STabs.vue";
 import STag from "./STag.vue";
+import SOutlineTag from "./SOutlineTag.vue";
+import SCircleTag from "./SCircleTag.vue";
 import STimeline from "./STimeline.vue";
 import TimelinePoint from "./TimelinePoint";
 import STypoQuote from "./STypoQuote.vue";
@@ -59,6 +61,8 @@ export default {
     STab,
     STabs,
     STag,
+    SOutlineTag,
+    SCircleTag,
     STimeline,
     STypoQuote,
     TimelinePoint

@@ -1,8 +1,8 @@
 
 <template>
   <a
-    class="inline-flex items-center justify-between px-3 py-1 m-1 font-semibold tracking-wider uppercase bg-opacity-100 md:text-xs rounded-xl hover:bg-opacity-75"
-    :class="tagColor + ' ' + tagTextColor + ' ' + tagCursor"
+    class="inline-flex items-center justify-between px-3 py-1 m-1 font-semibold tracking-wider uppercase transition duration-150 transform border md:text-xs rounded-xl hover:shadow-md hover:scale-101"
+    :class="tagBorderColor + ' ' + tagTextColor + ' ' + tagCursor"
   >
     <div class="pr-1"><slot name="iconLeft"></slot></div>
     <slot></slot>
@@ -14,17 +14,17 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class STag extends Vue {
-  @Prop() color?: string;
+export default class SOutlineTag extends Vue {
+  @Prop() borderColor?: string;
   @Prop() textColor?: string;
 
-  private tagColor = "";
+  private tagBorderColor = "";
   private tagTextColor = "";
   private tagCursor = "";
 
   mounted() {
-    this.tagColor = this.color ?? "bg-azure-200 ";
-    this.tagTextColor = this.textColor ?? "text-azure-700 ";
+    this.tagBorderColor = this.borderColor ?? "border-azure-400 ";
+    this.tagTextColor = this.textColor ?? "text-azure-600 ";
 
     // check if component has a href attribute and add a pointer cursor
     this.tagCursor =
