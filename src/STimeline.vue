@@ -1,6 +1,6 @@
 
 <template>
-  <div class="w-full mx-auto lg:w-3/4 2xl:w-1/2" :class="arrangementClass()">
+  <div class="w-full lg:w-3/4 2xl:w-1/2" :class="arrangementClass()">
     <div
       class="flex my-6 group"
       v-for="(point, index) in timelinePoints"
@@ -8,7 +8,7 @@
     >
       <div
         v-if="arrangement == 'left'"
-        class="flex-shrink-0 w-4 h-4 transition-all duration-300 rounded-full bg-amber-400 group-hover:bg-amber-600"
+        class="flex-shrink-0 w-4 h-4 transition-all duration-300 rounded-full bg-amber-600 group-hover:bg-amber-500"
         style="margin-left: -0.55rem"
       ></div>
       <div
@@ -22,7 +22,7 @@
           {{ point.title }}
         </div>
         <div
-          class="text-sm leading-7 text-fog-600 transition-all duration-150 group-hover:text-fog-900"
+          class="text-sm leading-7 transition-all duration-150 text-fog-600 group-hover:text-fog-900"
         >
           {{ point.description }}
         </div>
@@ -47,7 +47,7 @@
 
       <div
         v-if="arrangement == 'right'"
-        class="flex-shrink-0 w-4 h-4 transition-all duration-300 rounded-full bg-amber-400 group-hover:bg-amber-600"
+        class="flex-shrink-0 w-4 h-4 transition-all duration-300 rounded-full bg-amber-600 group-hover:bg-amber-500"
         style="margin-right: -0.55rem"
       ></div>
     </div>
@@ -74,9 +74,5 @@ export default class STimeline extends Vue {
     if (this.arrangement == TimelineArrangement.LeftOnly) return "border-l-2";
     else return "border-r-2";
   }
-
-  private timelineDot = `<div
-        class="flex-shrink-0 w-4 h-4 -ml-2 transition-all duration-300 rounded-full bg-amber-400 group-hover:bg-amber-600"
-      ></div>`;
 }
 </script>

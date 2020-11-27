@@ -17,7 +17,7 @@
         </div>
 
         <div class="text-center lg:text-left">
-          <div class="text-lg lg:mt-2 font-display text-amber-800">
+          <div class="text-lg lg:mt-2 font-display text-amber-700">
             {{ author }}
           </div>
           <div class="mb-2 text-base tracking-wide text-fog-600 lg:text-xs">

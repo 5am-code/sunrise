@@ -1,7 +1,7 @@
 
 <template>
   <button
-    class="flex items-center font-semibold tracking-wide transition duration-300 ease-in-out border rounded-md text-azure-600 border-azure-300 hover:border-azure-600 focus:outline-none bg-azure-100"
+    class="flex items-center font-semibold tracking-wide text-white transition duration-300 ease-in-out rounded-md focus:outline-none hover:bg-azure-400 bg-azure-500"
     :class="sizeStyling"
   >
     <slot></slot>
@@ -12,7 +12,7 @@
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class SAccentOutlineButton extends Vue {
+export default class SAzureButton extends Vue {
   @Prop() size?: string;
 
   get sizeStyling(): string {
@@ -27,5 +27,3 @@ export default class SAccentOutlineButton extends Vue {
   }
 }
 </script>
-<style>
-</style>

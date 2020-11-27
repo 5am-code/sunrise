@@ -1,7 +1,7 @@
 
 <template>
   <pre
-    class="px-6 pb-4 overflow-auto text-sm bg-fog-100 border rounded"
+    class="px-6 pb-4 overflow-auto text-sm border rounded bg-azure-50"
   ><slot></slot></pre>
 </template>
 

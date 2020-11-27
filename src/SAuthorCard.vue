@@ -24,7 +24,7 @@
           {{ excerpt }}
         </s-paragraph>
         <div
-          class="pb-4 text-sm transition duration-300 text-azure-300 group-hover:text-azure-500"
+          class="pb-4 text-sm transition duration-300 text-azure-400 group-hover:text-azure-500"
         >
           <slot name="date">{{ date }}</slot> &#183;
           <slot name="read">{{ read }}</slot>

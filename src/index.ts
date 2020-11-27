@@ -1,5 +1,5 @@
-import SAccentButton from "./SAccentButton.vue";
-import SAccentOutlineButton from "./SAccentOutlineButton.vue";
+import SAzureButton from "./SAzureButton.vue";
+import SAzureOutlineButton from "./SAzureOutlineButton.vue";
 import SBaseButton from "./SBaseButton.vue";
 import SBaseOutlineButton from "./SBaseOutlineButton.vue";
 import SCard from "./SCard.vue";
@@ -16,8 +16,8 @@ import SGradientLink from "./SGradientLink.vue";
 import SExternalLink from "./SExternalLink.vue";
 import SParagraph from "./SParagraph.vue";
 import SParagraphHeadline from "./SParagraphHeadline.vue";
-import SPrimaryButton from "./SPrimaryButton.vue";
-import SPrimaryOutlineButton from "./SPrimaryOutlineButton.vue";
+import SAmberButton from "./SAmberButton.vue";
+import SAmberOutlineButton from "./SAmberOutlineButton.vue";
 import SQuote from "./SQuote.vue";
 import SQuoteAuthor from "./SQuoteAuthor.vue";
 import SQuoteCard from "./SQuoteCard.vue";
@@ -31,8 +31,8 @@ import TimelinePoint from "./TimelinePoint";
 import STypoQuote from "./STypoQuote.vue";
 
 export default {
-    SAccentButton,
-    SAccentOutlineButton,
+    SAzureButton,
+    SAzureOutlineButton,
     SBaseButton,
     SBaseOutlineButton,
     SCard,
@@ -49,8 +49,8 @@ export default {
     SExternalLink,
     SParagraph,
     SParagraphHeadline,
-    SPrimaryOutlineButton,
-    SPrimaryButton,
+    SAmberOutlineButton,
+    SAmberButton,
     SQuote,
     SQuoteAuthor,
     SQuoteCard,

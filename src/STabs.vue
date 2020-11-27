@@ -3,7 +3,7 @@
   <div class="my-4">
     <ul class="flex pl-2 border-b">
       <li
-        class="px-5 py-2 mx-1 text-sm font-semibold transition-colors duration-300 border cursor-pointer border-azure-100 hover:text-azure-600"
+        class="px-5 py-2 mx-1 text-sm font-semibold transition-colors duration-300 border cursor-pointer border-azure-200 hover:text-azure-600"
         :class="
           selectedIndex == index
             ? 'bg-white text-fog-800 '
@@ -11,8 +11,8 @@
         "
         :style="
           selectedIndex == index
-            ? 'border-bottom: 4px solid #FF453B;'
-            : 'border-bottom: 2px solid #E6ECF2;'
+            ? 'border-bottom: 4px solid #e86676;'
+            : 'border-bottom: 2px solid #D9EDF2;'
         "
         v-for="(tab, index) in tabs"
         :key="tab.title"

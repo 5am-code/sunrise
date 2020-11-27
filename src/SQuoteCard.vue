@@ -5,7 +5,7 @@
   >
     <div class="w-full pt-1">
       <div
-        class="w-20 h-20 mx-auto -mt-12 overflow-hidden bg-center bg-cover border rounded-full shadow border-amber-300"
+        class="w-20 h-20 mx-auto -mt-12 overflow-hidden bg-center bg-cover border rounded-full shadow border-amber-400"
         :style="'background-image: url(' + authorImage + ')'"
       ></div>
     </div>
