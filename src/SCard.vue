@@ -58,5 +58,3 @@ export default class SCard extends Vue {
   @Prop() excerpt!: string;
 }
 </script>
-<style>
-</style>

@@ -51,5 +51,3 @@ export default class STabs extends Vue {
   }
 }
 </script>
-<style>
-</style>

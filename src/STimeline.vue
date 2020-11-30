@@ -4,7 +4,7 @@
     <div
       class="flex my-6 group"
       v-for="(point, index) in timelinePoints"
-      :key="point.date"
+      :key="index"
     >
       <div
         v-if="arrangement == 'left'"

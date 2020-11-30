@@ -1,7 +1,7 @@
 
 <template>
   <button
-    class="text-fog-900 transition-all duration-300 border border-transparent rounded shadow hover:border-fog-300 hover:text-azure-500 focus:outline-none"
+    class="transition-all duration-300 bg-white border border-transparent rounded shadow text-fog-900 hover:border-fog-300 hover:text-azure-500 focus:outline-none"
     :class="sizeStyling"
   >
     <slot></slot>

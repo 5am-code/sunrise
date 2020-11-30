@@ -13,5 +13,3 @@ export default class STab extends Vue {
   public isActive = false;
 }
 </script>
-<style>
-</style>

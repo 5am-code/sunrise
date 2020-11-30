@@ -4,7 +4,6 @@ import SBaseButton from "./SBaseButton.vue";
 import SBaseOutlineButton from "./SBaseOutlineButton.vue";
 import SCard from "./SCard.vue";
 import SAuthorCard from "./SAuthorCard.vue";
-import SCodeBlock from "./SCodeBlock.vue";
 import SColorIconButton from "./SColorIconButton.vue";
 import SHeadline from "./SHeadline.vue";
 import SHeadlineAlternative from "./SHeadlineAlternative.vue";
@@ -32,14 +31,13 @@ import STimeline from "./STimeline.vue";
 import TimelinePoint from "./TimelinePoint";
 import STypoQuote from "./STypoQuote.vue";
 
-export default {
+export {
     SAzureButton,
     SAzureOutlineButton,
     SBaseButton,
     SBaseOutlineButton,
     SCard,
     SAuthorCard,
-    SCodeBlock,
     SColorIconButton,
     SHeadline,
     SHeadlineAlternative,

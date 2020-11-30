@@ -2,8 +2,9 @@
 <template>
   <a
     class="transition duration-300 border-b-2 cursor-pointer border-azure-200 hover:border-transparent"
-    ><slot></slot
-  ></a>
+  >
+    <slot></slot>
+  </a>
 </template>
 
 <script lang='ts'>
