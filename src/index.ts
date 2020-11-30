@@ -31,7 +31,7 @@ import STimeline from "./STimeline.vue";
 import TimelinePoint from "./TimelinePoint";
 import STypoQuote from "./STypoQuote.vue";
 
-export {
+export default {
     SAzureButton,
     SAzureOutlineButton,
     SBaseButton,
