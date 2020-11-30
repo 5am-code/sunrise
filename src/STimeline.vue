@@ -1,6 +1,6 @@
 
 <template>
-  <div class="w-full lg:w-3/4 2xl:w-1/2" :class="arrangementClass()">
+  <div class="" :class="arrangementClass()">
     <div
       class="flex my-6 group"
       v-for="(point, index) in timelinePoints"

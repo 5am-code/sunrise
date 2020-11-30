@@ -33,7 +33,7 @@ And a sip of your favorite hot beverage is always a great idea. ☕️ 🍵
 The easiest way to use Sunrise Components is to install via npm.
 
 ```
-install great stuff via npm
+npm i @5amcode/sunrise-components
 ```
 
 #### Adjust `tailwind.config.js`

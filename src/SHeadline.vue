@@ -1,6 +1,6 @@
 
 <template>
-  <div class="text-2xl font-semibold leading-8 font-display">
+  <div class="py-4 text-2xl font-semibold leading-8 font-display">
     <slot></slot>
   </div>
 </template>
