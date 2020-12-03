@@ -1,6 +1,6 @@
 {
   "name": "@5amcode/sunrise-components",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Sunrise by 5amco.de is a Vue component library written in Typescript. It's based on TailwindCSS and focused on minimal, expressive design. You can use the growing number of components as a standalone library or extend your existing application design - Sunrise Components are lightly opinionated, but very flexible. For detailed usage information, see the documentation on the website.",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
