@@ -20,7 +20,8 @@ Sunrise by 5amco.de is a Vue component library written in Typescript. It's based
 ## Usage
 
 ### Prerequisites
-Have your Vue project up and running on Typescript!
+Have your **Vue project up and running on Typescript**! For the sake of completeness: You will need the packages `vue-property-decorator` as well as
+`vue-class-component`, but these should already come with your Vue Installation.
 Next up, you should install and setup Tailwind via npm like described in
 their docs. After that, if you haven't done it yet, you should create a
 Tailwind configuration file - this is also well documented in the
@@ -33,12 +34,13 @@ And a sip of your favorite hot beverage is always a great idea. ☕️ 🍵
 The easiest way to use Sunrise Components is to install via npm.
 
 ```
-npm i @5amcode/sunrise-components
+npm i @5amcode/sunrise-components --save
 ```
 
 #### Adjust `tailwind.config.js`
 
-After this, you should merge your own tailwind.config.js file with the one given in the repository. This configuration contains the custom colors, additional utility classes and more.
+After this, you should extend your own `tailwind.config.js` by the configuration given in the file `extend_tailwind.config.js`. It is located in the root of the package. This configuration contains the custom colors, additional utility classes and more. 
+(You can also take a look at the file in the [Usage Section](https://sunrise.5amco.de/usage) on the package website.)
 
 If you want to use the full Sunrise Design - and we highly recommend this! - note that you have to install or embed the Fonts [Open Sans](https://fonts.google.com/specimen/Open+Sans) (used as standard font), [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro) (headlines) and [Source Serif Pro](https://fonts.google.com/specimen/Source+Serif+Pro) (oblique, fancy text stuff ✨). As of today, the usage of the fonts is free, but you should double-check with your own requirements before installing them. You can use your own fonts as well, just tweak the font-properties in your `tailwind.config.js`:
 
